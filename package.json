@@ -1,0 +1,10 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "build:ts": "tsc",
+    "build": "npm run build:ts && cd app && trunk build && cd .. && node scripts/dist/update_script.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6"
+  }
+}

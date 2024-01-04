@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "monkeysee",
+    "version": "1.0",
+    "description": "A screen record editor",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
