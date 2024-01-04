@@ -304,9 +304,6 @@ function __wbg_get_imports() {
         const ret = getObject(arg0).length;
         return ret;
     };
-    imports.wbg.__wbg_log_a4530b4fe289336f = function(arg0) {
-        console.log(getObject(arg0));
-    };
     imports.wbg.__wbg_warn_f260f49434e45e62 = function(arg0) {
         console.warn(getObject(arg0));
     };
@@ -420,7 +417,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('app-50834548a3da5217_bg.wasm', import.meta.url);
+        input = new URL('app-72661ca4d1e6799c_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
